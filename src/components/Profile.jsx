@@ -136,7 +136,3 @@ const Profile = () => {
 }
 
 export default Profile
-
-// mongoose.connect('mongodb+srv://narender:narender85@cluster0.uttmdmp.mongodb.net/swiggy?retryWrites=true&w=majority&appName=Cluster0', {
-//   useNewUrlParser: true,
-// }).then(() => console.log('DB connected'));
