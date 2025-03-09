@@ -1,0 +1,171 @@
+
+.cont{
+  width: 35%;
+  height: 100vh;
+  background-color: white;
+  position: absolute;
+  left: 0;
+}
+
+.wrong{
+  width: 35px;
+  height: 35px;
+  background-color: rgba(0, 0, 0, 0.282);
+  position: absolute;
+  right: 0;
+  margin-right: 2rem;
+  margin-top: 2rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.geo-main{
+    width: 35%;
+    position: absolute;
+    left: 0;
+}
+
+  input{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+.google-block{
+  width: 70%;
+  margin-left: 7rem;
+  margin-top: 6rem;
+  height: 400px;
+}
+
+.geo-block{
+  width: 65%;
+  height: 41px;
+  border: 1px solid rgba(0, 0, 0, 0.242);
+  margin-left: 7rem;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.geo-adres{
+  color: rgba(0, 0, 0, 0.355);
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+
+.geo-add{
+  color: rgba(0, 0, 0, 0.71);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  overflow: hidden;
+  margin-top: 0.4rem;
+}
+
+.overall-add{
+  margin-left: 7rem;
+  width: 70%;
+  margin-top: 2rem;
+}
+
+.door-add{
+  height: 75px;
+  border: 1px solid rgba(0, 0, 0, 0.242);
+}
+
+.door-inp{
+  background-color: white;
+  width: 95%;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  height: 40px;
+  font-size: 18px;
+}
+
+.select-place{
+  margin-left: 7rem;
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+
+.home-place{
+  width: 29.4%;
+  border: 1px solid rgba(0, 0, 0, 0.242);
+  padding: 0.5rem;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.71);
+  font-weight: 400;
+}
+
+.work-place{
+  width: 29.3%;
+  border: 1px solid rgba(0, 0, 0, 0.242);
+  padding: 0.5rem;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.71);
+  font-weight: 400;
+}
+
+.other-place{
+  width: 29.3%;
+  border: 1px solid rgba(0, 0, 0, 0.242);
+  padding: 0.5rem;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.71);
+  font-weight: 400;
+}
+
+.home-place:hover{
+  background-color: black;
+  color: white;
+}
+
+.work-place:hover{
+  background-color: black;
+  color: white;
+}
+
+.other-place:hover{
+  background-color: black;
+  color: white;
+}
+
+.locbtn{
+  background-color: #FF4500;
+  color: white;
+  padding: 1rem;
+  width: 70%;
+  margin-left: 7rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 2rem;
+  height: 60px;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.locbtn:hover{
+  background-color: darkorange;
+}

@@ -1,0 +1,324 @@
+.pro-header{
+    background-color: #3179a9;
+    width: 100%;
+    height: 100vh;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: 0;
+}
+
+.pro-details{
+    margin-top: 5rem;
+    margin-left: 10rem;
+    position: relative;
+}
+
+.pro-name{
+    color: white;
+    font-size: 35px;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pro-mail{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0.5rem;
+}
+
+.pro-edit{
+    width: 170px;
+    height: 50px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    border-radius: 2px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 10rem;
+}
+
+.pro-list{
+    width: 85%;
+    height: 100vh;
+    margin-top: 2rem;
+    margin-left: 8rem;
+    background-color: white;
+    position: relative;
+    overflow: auto;
+    scroll-behavior: smooth;
+    display: flex;
+}
+
+.pro-options{
+    width: 350px;
+    height: 85vh;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    border-radius: 5px;
+    background-color: rgb(222, 229, 232);
+    position: relative;
+    overflow: auto;
+}
+
+.orders-block{
+    display: flex;
+    align-items: center;
+    width: 93%;
+    height: 90px;
+    margin-left: 1.5rem;
+    background-color: rgb(222, 229, 232);
+    margin-top: 2rem;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.orders-block:active{
+    background-color: white;
+}
+
+.orders{
+    position: absolute;
+    left: 0;
+    margin-left: 5rem;
+    color: rgba(0, 0, 0, 0.593);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.swiggy-one-block{
+    display: flex;
+    align-items: center;
+    width: 93%;
+    height: 90px;
+    margin-left: 1.5rem;
+    background-color:  rgb(222, 229, 232);
+    margin-top: 2rem;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.swiggy-one{
+    position: absolute;
+    left: 0;
+    margin-left: 5rem;
+    color: rgba(0, 0, 0, 0.593);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.favourites-block{
+    display: flex;
+    align-items: center;
+    width: 93%;
+    height: 90px;
+    margin-left: 1.5rem;
+    background-color:  rgb(222, 229, 232);
+    margin-top: 2rem;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.favourites{
+    position: absolute;
+    left: 0;
+    margin-left: 5rem;
+    color: rgba(0, 0, 0, 0.593);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.payments-pro-block{
+    display: flex;
+    align-items: center;
+    width: 93%;
+    height: 90px;
+    margin-left: 1.5rem;
+    background-color:  rgb(222, 229, 232);
+    margin-top: 2rem;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.payments-pro{
+    position: absolute;
+    left: 0;
+    margin-left: 5rem;
+    color: rgba(0, 0, 0, 0.593);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.address-pro-block{
+    display: flex;
+    align-items: center;
+    width: 93%;
+    height: 90px;
+    margin-left: 1.5rem;
+    background-color:  rgb(222, 229, 232);
+    margin-top: 2rem;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.address-pro{
+    position: absolute;
+    left: 0;
+    margin-left: 5rem;
+    color: rgba(0, 0, 0, 0.593);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.settings-block{
+    display: flex;
+    align-items: center;
+    width: 93%;
+    height: 90px;
+    margin-left: 1.5rem;
+    background-color:  rgb(222, 229, 232);
+    margin-top: 2rem;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.settings{
+    position: absolute;
+    left: 0;
+    margin-left: 5rem;
+    color: rgba(0, 0, 0, 0.593);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.orders-list{
+    width: 40vw;
+    height: 84vh;
+    margin-left: 3rem;
+    margin-top: 5.5rem;
+}
+
+.your-orders{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    color: rgba(0, 0, 0, 0.815);
+}
+
+.your-address{
+    width: 550px;
+    height: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.147);
+    margin-top: 2rem;
+    margin-left: 2rem;
+    padding: 1.5rem;
+    color: rgba(0, 0, 0, 0.629);
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+
+.add-pro{
+    display: flex;
+    margin-top: 2rem;
+    color: #FF4500;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.add-edit{
+    margin-right: 2rem;
+    margin-left: 1rem;
+}
+
+.ucart-item{
+    width: 30vw;
+    height: 25vh;
+    border: 1px solid rgba(0, 0, 0, 0.147);
+    border-radius: 15px;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    position: relative;
+    display: flex;
+}
+
+.ucart-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.ucart-price{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+.ucart-restname{
+    color: rgba(0, 0, 0, 0.604);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+.ucart-itemname{
+    color: rgba(0, 0, 0, 0.807);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    margin-top: 5.3rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 13.4rem;
+}
+
+.ucart-rating{
+    color: rgba(0, 0, 0, 0.604);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 7.7rem;
+    margin-left: 13.4rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

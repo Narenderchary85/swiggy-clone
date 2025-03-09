@@ -1,0 +1,15 @@
+export const START_ADD = "START_ADD";
+export const ADD_CART = "ADD_CART";
+export const FAIL_ADD = "FAIL_ADD";
+export const SET_RESTAURANTS = "SET_RESTAURANTS";
+export const CHANGE_ADD_QTY = "CHANGE_ADD_QTY";
+export const CHANGE_REMOVE_QTY = "CHANGE_REMOVE_QTY";
+export const OPEN_POP="OPEN_POP";
+export const CLOSE_POP="CLOSE_POP";
+export const GET_REST="GET_REST";
+export const GET_USER="GET_USER";
+export const GET_ADDR="GET_ADDR";
+export const FETCH_CART="FETCH_CART";
+export const SAVE_CART="SAVE_CART";
+export const OPEN_DEL="OPEN_DEL";
+export const CLOSE_DEL="CLOSE_DEL";

@@ -1,0 +1,227 @@
+.rest-bill-top{
+    display: flex;
+    width: 400px;
+    height: 70px;
+    margin-right: 0rem;
+    margin-top: 1.5rem;
+    margin-left: 1.2rem;
+}
+
+.img-bill{
+    width: 65px;
+    height: 60px;
+    position: absolute;
+    left: 0;
+    margin-left: 2rem;
+}
+
+.rest-bill-name{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 6.7rem;
+    font-family: 'Roboto','Arial','Helvetica','Open Sans';
+}
+
+.rest-bill-add{
+    font-size: 15px;
+    font-weight: 450;
+    position: absolute;
+    margin-top: 1.5rem;
+    margin-left: 6.7rem;
+    font-family: 'Roboto','Arial','Helvetica','Open Sans';
+    color: rgba(0, 0, 0, 0.512);
+}
+
+.hr1{
+    position: absolute;
+    margin-top: 3.5rem;
+    margin-left: 6.7rem;
+}
+
+.rest-overbill{
+    overflow-x: hidden; 
+    overflow-y: scroll; 
+    scroll-behavior: smooth;
+    white-space: nowrap; 
+    height: 55vh;
+}
+
+
+.cart-count {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    margin-top: 0.5rem;
+    padding: 0 1rem; 
+    box-sizing: border-box;
+}
+
+.cart-item-name {
+    font-family: 'Roboto', 'Arial', 'Helvetica', 'Open Sans';
+    font-weight: 400;
+    font-size: 17px;
+    margin-left: 1rem; 
+    width: 140px;
+    margin-right: 3rem;
+}
+
+.count-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 0.5px solid rgba(0, 0, 0, 0.271);
+    width: 85px;
+    height: 35px;
+    font-size: 17px;
+    font-weight: 800;
+    color: green;
+    margin-right: 1rem; 
+}
+
+.cart-price {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(0, 0, 0, 0.616);
+    flex: 0; 
+    margin-left: 1rem; 
+}
+
+
+.suggestion-box{
+    width: 100%;
+    height: 170px;
+    margin-top: 1.5rem;
+    margin-left: 0.5rem;
+    justify-content: center; 
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.456);
+}
+
+.anysug{
+    margin-left: 5.2rem;
+}
+
+.sub-box{
+    width: 355px;
+    height: 90px;
+    border: 1px solid rgba(0, 0, 0, 0.437);
+    margin-left: 1rem;
+    margin-top: 2rem;
+    position: relative;
+    padding: 1rem;
+}
+
+.check{
+    color: green;
+    width: 20px;
+    height: 20px;
+}
+
+.bill-box{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    position: relative;
+}
+
+.bill-details{
+    color: black;
+    font-family: 'Roboto','Arial','Helvetica','Open Sans';
+}
+
+.item-total{
+    color: rgba(0, 0, 0, 0.471);
+    margin-top: 0.5rem;
+    font-size: 17px;
+}
+
+.delivery-km{
+    color: rgba(0, 0, 0, 0.471);
+    margin-top: 0.5rem;
+}
+
+.bill-box-price{
+    color: rgba(0, 0, 0, 0.471);
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 1.5rem;
+}
+
+.delivery-price{
+    color: rgba(0, 0, 0, 0.471);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 2rem;
+}
+
+.delivery-box{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    position: relative;
+}
+
+.delivery-tip{
+    color: rgba(0, 0, 0, 0.471);
+    margin-top: 0.5rem;
+    font-size: 17px;
+}
+
+.plat{
+    color: rgba(0, 0, 0, 0.471);
+    margin-top: 0.5rem;
+    font-size: 17px;
+}
+
+.gst{
+    color: rgba(0, 0, 0, 0.471);
+    margin-top: 0.5rem;
+    font-size: 17px;
+    margin-bottom: 1rem;
+}
+
+.add-tip{
+    color: red;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 0rem;
+}
+
+.plat-fee{
+    color: rgba(0, 0, 0, 0.471);
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 1.8rem;
+}
+
+.gst-price{
+    color: rgba(0, 0, 0, 0.471);
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 3.9rem;
+}
+
+.topay{
+    margin-left: 2.2rem;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 2rem;
+}
+
+.to-pay-price{
+    color: black;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

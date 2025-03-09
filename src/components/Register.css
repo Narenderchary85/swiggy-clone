@@ -1,0 +1,89 @@
+.form{
+    height: 550px;
+    width: 400px;
+    background-color: #f4f4f4f4;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border-radius: 15px;
+}
+
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stuid{
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.name{
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.branch{
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.age{
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.idinput{
+    width: 300px;
+    height: 15px;
+    padding: 10px;
+    margin-left: 29px;
+    font-size: 20px;
+}
+
+.nameinput{
+    width: 300px;
+    height: 15px;
+    padding: 10px;
+    margin-left: 29px;
+    font-size: 20px;
+}
+
+.branchinput{
+    width: 300px;
+    height: 15px;
+    padding: 10px;
+    margin-left: 29px;
+    font-size: 20px;
+}
+
+.ageinput{
+    width: 300px;
+    height: 15px;
+    padding: 10px;
+    margin-left: 29px;
+    font-size: 20px;
+}
+
+.btnf{
+    border: none;
+    background-color: black;
+    color: white;
+    width: 325px;
+    height: 40px;
+    padding: 10px;
+    margin-left: 29px;
+    margin-top: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+}
