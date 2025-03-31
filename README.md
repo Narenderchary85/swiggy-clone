@@ -15,5 +15,14 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ![Alt Text](https://github.com/Narenderchary85/swiggy-clone/blob/main/public/HomepageImage.png)
 
+<h1>Search Items</h1>
 
+![Alt Text](https://github.com/Narenderchary85/swiggy-clone/blob/main/public/Searching.png)
 
+<h1>Restaurant Port</h1>
+
+![Alt Text](https://github.com/Narenderchary85/swiggy-clone/blob/main/public/restautantport.png)
+
+<h1>User Profile</h1>
+
+![Alt Text](https://github.com/Narenderchary85/swiggy-clone/blob/main/public/profileImage.png
