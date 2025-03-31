@@ -25,4 +25,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 <h1>User Profile</h1>
 
-![Alt Text](https://github.com/Narenderchary85/swiggy-clone/blob/main/public/profileImage.png
+![Alt Text](https://github.com/Narenderchary85/swiggy-clone/blob/main/public/profileImage.png)
