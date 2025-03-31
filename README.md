@@ -26,3 +26,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 <h1>User Profile</h1>
 
 ![Alt Text](https://github.com/Narenderchary85/swiggy-clone/blob/main/public/profileImage.png)
+
+<h1>Your Cart</h1>
+
+![Alt Text](https://github.com/Narenderchary85/swiggy-clone/blob/main/public/cartpage.png)
+
+<h1>Address Page</h1>
+
+![Alt Text](https://github.com/Narenderchary85/swiggy-clone/blob/main/public/address.png)
