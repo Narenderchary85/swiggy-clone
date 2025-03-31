@@ -10,7 +10,6 @@ const Login = () => {
     password: ''
   });
   const [isLoggedin,setisLoggedin]=useState(false);
-  const [issignup,setsignup]=useState(false);
 
   const submithandler = async (e) => {
     e.preventDefault();
